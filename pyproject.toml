@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "things-cli"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+packages = [{include = "things_cli"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+argcomplete = "3.0.8"
+things-py = "0.0.15"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
